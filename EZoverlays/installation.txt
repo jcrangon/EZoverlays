@@ -1,0 +1,40 @@
+******   E Z o v e r l a y s   ******
+
+A simple way to add stylish overlays to your web page.
+Designed for quick  installation.
+
+1. EDIT EZoverlays/EZoverlays.php
+
+	a. Ajust the $path_to_EZoverlays
+	
+	b. Edit the content of the overlays you need
+
+
+2. EDIT EZoverlays/css/EZoverlays.css
+
+	a. '.togglecontainer' contains the style data for the overlay background
+	
+	b. '.overlayclass1', '.overlayclass2' ... hold the style data for the overlay content
+	
+	c. Customize, add, remove styles as needed
+
+
+3. EDIT the page containing the overlays
+	
+	I. In the <HEAD> section:
+	
+		a. Include overlays css : <link rel="stylesheet" href="./EZoverlays/css/EZoverlays.css" type="text/css" />
+		
+		b. Include jquery : <script type="text/javascript" src="./EZoverlays/js/jquery/jquery-3.1.1.min.js"></script>
+		
+		b. Include overlays JS : <script type="text/javascript" src="./EZoverlays/js/EZoverlays.js"></script>
+	
+	II. In the <BODY> section
+	
+		Overlays can be fired by any clickable element (button, img, div, span, p, etc...) as long as the launch
+		element hold one of the launch ID : fireoverlay1, fireoverlay2, fireoverlay3, fireoverlay4.
+		
+		Example:
+		<button id="fireoverlay1">Overlay1</button> -> click fires overlay1
+		<a href="#" id="fireoverlay3"> Open overlay 3</a> -> click fires overlay3
+		...

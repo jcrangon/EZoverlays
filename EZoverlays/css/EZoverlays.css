@@ -1,0 +1,35 @@
+.togglecontainer{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	min-height:100%;
+	z-index:100000;
+	background-color:rgba(0,0,0,0.5); /* background color and transparency of the overlays*/
+	display:none;
+}
+/* Set the CSS for each overlay as needed */
+.overlayclass1{
+	
+}
+
+.overlayclass2{
+	
+}
+
+.overlayclass3{
+	
+}
+
+.overlayclass4{
+	
+}
+
+.closeoverlaybutton{
+	position:absolute;
+	top:5px;
+	right:5px;
+	width:30px;
+	height:30px;
+	cursor:pointer;
+}
