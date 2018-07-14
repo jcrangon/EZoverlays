@@ -31,6 +31,8 @@ Designed for quick  installation.
 	
 	II. In the <BODY> section
 	
+		Include the overlays : <?php include("path/to/EZoverlays/EZoverlays.php"); ?>
+		
 		Overlays can be fired by any clickable element (button, img, div, span, p, etc...) as long as the launch
 		element hold one of the launch ID : fireoverlay1, fireoverlay2, fireoverlay3, fireoverlay4.
 		
